@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanGuard - Dashboard de Monitoramento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>OceanGuard</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="analysis.html">Análise de Dados</a></li>
+            <li><a href="mapping.html">Mapeamento de Poluentes</a></li>
+            <li><a href="insights.html">Insights</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="dashboard">
+            <h2>Dashboard de Monitoramento</h2>
+            <div class="data-display">
+                <!-- Dados em tempo real serão exibidos aqui -->
+            </div>
+            <div id="charts">
+                <canvas id="chart1"></canvas>
+                <canvas id="chart2"></canvas>
+                <canvas id="chart3"></canvas>
+                <canvas id="chart4"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

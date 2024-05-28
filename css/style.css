@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00ced1; /* Cor de fundo Turquesa escura */
+    color: #000; /* Cor da fonte preta */
+    font-size: 22px; /* Aumento do tamanho da fonte base */
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0f1a2b;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px; /* Aumento do tamanho da fonte do título */
+    color: #e8d9b8;
+}
+
+.navbar {
+    background-color: #0f1a2b;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #e8d9b8;
+    text-decoration: none;
+    font-size: 22px; /* Aumento do tamanho da fonte dos links de navegação */
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.intro-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.intro-content h2 {
+    font-size: 36px; /* Aumento do tamanho da fonte do subtítulo */
+    margin-bottom: 20px;
+}
+
+.intro-content p {
+    font-size: 22px; /* Aumento do tamanho da fonte do parágrafo */
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px; /* Aumento do tamanho do botão */
+    background-color: #ff312e; /* Cor dos botões */
+    color: #ffffff; /* Cor da fonte do botão */
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px; /* Aumento do tamanho da fonte do botão */
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e02b2a; /* Cor dos botões ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0f1a2b;
+    margin-top: 20px;
+    color: #ffffff; /* Cor da fonte do rodapé */
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 22px; /* Aumento do tamanho da fonte do rodapé */
+}
+
+.dashboard, .analysis, .mapping, .insights {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.dashboard h2, .analysis h2, .mapping h2, .insights h2 {
+    font-size: 36px; /* Aumento do tamanho da fonte do título das seções */
+    margin-bottom: 20px;
+}
+
+.data-display, .analysis-results, .mapping-display {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+canvas {
+    max-width: 100%;
+    height: 400px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px; /* Aumento do tamanho da fonte das células da tabela */
+}
+
+.data-table th {
+    background-color: #0f1a2b;
+    color: #ffffff; /* Cor da fonte dos cabeçalhos da tabela */
+}
+
+.data-table td {
+    background-color: #172647;
+    color: #ffffff; /* Cor da fonte das células da tabela */
+}
+
+.insights-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.insights-list li {
+    font-size: 22px; /* Aumento do tamanho da fonte dos itens da lista */
+    line-height: 1.8;
+    margin-bottom: 10px;
+}

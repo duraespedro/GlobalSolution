@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanGuard - Análise de Dados</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>OceanGuard</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="analysis.html">Análise de Dados</a></li>
+            <li><a href="mapping.html">Mapeamento de Poluentes</a></li>
+            <li><a href="insights.html">Insights</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="analysis">
+            <h2>Análise de Dados</h2>
+            <p>
+                Nossa análise de dados fornece uma visão detalhada sobre a saúde dos oceanos. Utilizamos gráficos e tabelas para apresentar informações sobre a temperatura, pH, salinidade e níveis de poluição.
+            </p>
+            <div class="analysis-results">
+                <div id="charts">
+                    <canvas id="chart1"></canvas>
+                    <canvas id="chart2"></canvas>
+                    <canvas id="chart3"></canvas>
+                    <canvas id="chart4"></canvas>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Mês</th>
+                            <th>Temperatura (°C)</th>
+                            <th>pH</th>
+                            <th>Salinidade (PSU)</th>
+                            <th>Nível de Oxigênio (mg/L)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Janeiro</td>
+                            <td>22</td>
+                            <td>8.1</td>
+                            <td>35</td>
+                            <td>6.8</td>
+                        </tr>
+                        <tr>
+                            <td>Fevereiro</td>
+                            <td>23</td>
+                            <td>8.0</td>
+                            <td>35.1</td>
+                            <td>6.7</td>
+                        </tr>
+                        <tr>
+                            <td>Março</td>
+                            <td>24</td>
+                            <td>8.2</td>
+                            <td>35.2</td>
+                            <td>6.6</td>
+                        </tr>
+                        <tr>
+                            <td>Abril</td>
+                            <td>24.5</td>
+                            <td>8.3</td>
+                            <td>35.3</td>
+                            <td>6.5</td>
+                        </tr>
+                        <tr>
+                            <td>Maio</td>
+                            <td>25</td>
+                            <td>8.4</td>
+                            <td>35.4</td>
+                            <td>6.4</td>
+                        </tr>
+                        <tr>
+                            <td>Junho</td>
+                            <td>26</td>
+                            <td>8.5</td>
+                            <td>35.5</td>
+                            <td>6.3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanGuard - Mapeamento de Poluentes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>OceanGuard</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="analysis.html">Análise de Dados</a></li>
+            <li><a href="mapping.html">Mapeamento de Poluentes</a></li>
+            <li><a href="insights.html">Insights</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="mapping">
+            <h2>Mapeamento de Poluentes</h2>
+            <p>
+                O mapeamento de poluentes é essencial para identificar áreas críticas e tomar medidas eficazes de mitigação. Utilizamos gráficos e tabelas para apresentar a distribuição e composição dos poluentes nos oceanos.
+            </p>
+            <div class="mapping-display">
+                <div id="charts">
+                    <canvas id="chart5"></canvas>
+                    <canvas id="chart6"></canvas>
+                    <canvas id="chart7"></canvas>
+                    <canvas id="chart8"></canvas>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Região</th>
+                            <th>Plástico (PPM)</th>
+                            <th>Óleo (PPM)</th>
+                            <th>Outros (PPM)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Zona Costeira</td>
+                            <td>55</td>
+                            <td>30</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Mar Aberto</td>
+                            <td>35</td>
+                            <td>40</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Estuários</td>
+                            <td>60</td>
+                            <td>20</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
